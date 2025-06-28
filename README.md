@@ -14,7 +14,14 @@ A simple Python-based CLI for downloading YouTube videos and music using `yt-dlp
 2. Run `python ytdlp-interface.py`
 3. Follow the terminal instructions!
 
-## Building an EXE
+## Building an EXE for Windows
 ```bash
+# Step 1: Install PyInstaller
 pip install pyinstaller
+
+# Step 2: Add ffmpeg to PATH (if not already set)
+# Example (adjust the path to where ffmpeg is on your PC):
+set PATH=%PATH%;C:\path\to\ffmpeg\bin
+
+# Step 3: Use PyInstaller to create an executable
 pyinstaller --onefile ytdlp-interface.py
