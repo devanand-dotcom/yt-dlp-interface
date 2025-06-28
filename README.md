@@ -10,7 +10,7 @@ A simple Python-based CLI for downloading YouTube videos and music using `yt-dlp
 - ⚙️ Optional FFmpeg support
 
 ## ▶️ How to Use
-1. Install Python and [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+1. Install Python, [yt-dlp](https://github.com/yt-dlp/yt-dlp), [FFmpeg](https://ffmpeg.org/) (for advanced features like audio extraction, subtitle embedding, merging)
 2. Run `python ytdlp-interface.py`
 3. Follow the terminal instructions!
 
